@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        double Width = 13.5;
-        double Height = 25.3;
-        System.out.println(Width);
-        System.out.println(Height);
+        double width = 13.5;
+        double height = 25.3;
+        System.out.println(width);
+        System.out.println(height);
 
         // Calculates area using width and height
-        double Area = Width * Height;
-        System.out.println(Area);
+        double area = width * height;
+        System.out.println(area);
 
-        // Calculates area using width and height
-        double Perimeter = (Width * 2) + (Height * 2);
-        System.out.println(Perimeter);
+        // Calculates perimeter using width and height
+        double perimeter = (width * 2) + (height * 2);
+        System.out.println(perimeter);
 
     }
 }
